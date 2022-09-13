@@ -13,9 +13,12 @@ body {
 }
 
 .list {
-    text-decoration: none;
     list-style: none;
-}
+  }
+  
+  .link {
+      text-decoration: none;
+  }
 
 .logo {
 font-family: 'Raleway', sans-serif;
@@ -48,4 +51,30 @@ color: var(--primary-text-color);
 
 .contacts {
     color: var(--secondary-text-color);
+}
+
+
+
+
+
+
+.footer {
+    background-color: var(--secondary-bgc);
+} 
+
+.logo-footer {
+    color: var(--primary-bgc);
+}
+
+.address {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--primary-bgc);
+}
+
+.address-contacts {
+color: rgba(255, 255, 255, 0.6);
 }

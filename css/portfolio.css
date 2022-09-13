@@ -1,0 +1,41 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196f3;
+    --primary-bgc: #ffffff;
+    --secondary-bgc: #2f303a;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    background: var(--primary-bgc);
+    letter-spacing: 0.03em;
+  }
+
+  .list {
+    list-style: none;
+  }
+  
+  .link {
+      text-decoration: none;
+  }
+
+.main-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    color: var(--primary-text-color);
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.main-list:hover,
+.main-list:focus {
+    color: var(--primary-bgc);
+    background-color: var(--accent-color);
+}
+
+.labeltag {
+    text-transform: uppercase;
+}
