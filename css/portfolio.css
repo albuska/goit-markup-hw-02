@@ -55,3 +55,23 @@ color: var(--secondary-text-color);
 .labeltag {
     text-transform: uppercase;
 }
+
+.footer {
+  background-color: var(--secondary-bgc);
+}
+
+.logo-footer {
+  color: var(--primary-bgc);
+}
+
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-bgc);
+}
+
+.address-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
