@@ -29,6 +29,7 @@
     color: var(--primary-text-color);
     background: #F5F4FA;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .main-list:hover,
