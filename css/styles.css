@@ -4,6 +4,7 @@
   --accent-color: #2196f3;
   --primary-bgc: #ffffff;
   --secondary-bgc: #2f303a;
+  --logo-part-color: #000000;
 }
 
 body {
@@ -25,7 +26,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  color: #000000;
+  color: var(--logo-part-color);
 }
 
 .logo-part {
@@ -68,6 +69,7 @@ body {
 }
 
 .button {
+  font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -78,6 +80,24 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
+
+.button:hover,
+.button:focus {
+  background-color: #188CE8;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+} 
 
 .features-title {
   font-weight: 700;
@@ -91,6 +111,14 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
+}
+
+.section-work {
+  background: #F5F4FA;
+}
+
+.section-list {
+  background-color: var(--primary-bgc);
 }
 
 .work {
@@ -128,6 +156,12 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-bgc);
 }
+
+.address:hover,
+.address:focus {
+  color: var(--accent-color);
+}
+
 
 .address-contacts {
   color: rgba(255, 255, 255, 0.6);

@@ -4,6 +4,7 @@
     --accent-color: #2196f3;
     --primary-bgc: #ffffff;
     --secondary-bgc: #2f303a;
+    --button-bgc: #F5F4FA;
   }
   
   body {
@@ -21,13 +22,27 @@
       text-decoration: none;
   }
 
+  .visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  } 
+
 .main-list {
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     color: var(--primary-text-color);
-    background: #F5F4FA;
+    background: var(--button-bgc);
     border-radius: 4px;
     cursor: pointer;
 }
@@ -70,6 +85,11 @@ color: var(--secondary-text-color);
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-bgc);
+}
+
+.address:hover,
+.address:focus {
+  color: var(--accent-color);
 }
 
 .address-contacts {

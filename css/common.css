@@ -4,6 +4,8 @@
   --accent-color: #2196f3;
   --primary-bgc: #ffffff;
   --secondary-bgc: #2f303a;
+  --button-bgc: #F5F4FA;
+  --logo-part-color: #000000;
 }
 
 body {
@@ -25,7 +27,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  color: #000000;
+  color: var(--logo-part-color);
 }
 
 .logo-part {
@@ -68,6 +70,11 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-bgc);
+}
+
+.address:hover,
+.address:focus {
+  color: var(--accent-color);
 }
 
 .address-contacts {
